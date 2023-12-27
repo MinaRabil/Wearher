@@ -1,0 +1,177 @@
+.main-page {
+    background-color: #1E202B;
+}
+
+nav {
+    background-color: #1E202B;
+}
+
+.nav-item a {
+    padding: 1px 25px;
+    margin-left: 5px;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.nav-item a:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.main-page2 {
+    height: 40vh;
+    background-image: url(../imgs/banner.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.search-bar1 {
+
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+.search-bar2 {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    bottom: 5px;
+    background: #009ad8;
+    padding: 10px 40px;
+}
+
+.forecast-table {
+    background-color: #323544;
+
+}
+
+.forecast-container .forecast .forecast-content .degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+
+.forecast {
+    color: white;
+    font-weight: 400;
+}
+
+.special-color {
+    background-color: #282a38
+}
+
+.forecast-container .forecast.today .degree .num {
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+
+.forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forecast-container .forecast .forecast-content {
+    padding: 50px 20px 10px;
+}
+
+.custom {
+    color: #009ad8;
+}
+
+
+.forecast-container .forecast.today span img {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.site-footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+
+.button,
+form input[type="submit"],
+form input[type="button"],
+form button,
+form input[type="reset"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+
+
+
+.site-footer .social-links a:hover {
+    background: #009ad8;
+    color: white;
+}
